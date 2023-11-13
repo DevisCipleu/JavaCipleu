@@ -33,7 +33,9 @@ public class First {
                     break;
                 }
                 default:
-                    System.out.println("Optiune invalida!");
+                    if( n != 5) {
+                        System.out.println("Optiune invalida!");
+                    }
             }
         }while ( n != 5);
 
